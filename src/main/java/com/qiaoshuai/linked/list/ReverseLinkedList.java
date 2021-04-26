@@ -28,7 +28,7 @@ public class ReverseLinkedList {
      * @return
      */
     public ListNode reverseListV2(ListNode head) {
-        if(head.next == null){
+        if(head == null || head.next == null){
             return head;
         }
         ListNode temp = reverseListV2(head.next);
