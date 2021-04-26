@@ -1,6 +1,6 @@
 package com.qiaoshuai.linked.list;
 
-public class MoveZeroes {
+public class MoveZeroes283 {
     /**
      * 283. 移动零
      * 双指针的方法；
