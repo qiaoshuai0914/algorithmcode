@@ -7,6 +7,11 @@ import java.util.Map;
 public class ClimbingStairs70 {
     Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 
+    /**
+     * 加入了缓存就是动态规划了；
+     * @param n
+     * @return
+     */
     public int climbStairs(int n) {
         if (map.containsKey(Integer.valueOf(n))) {
             return map.get(Integer.valueOf(n));
