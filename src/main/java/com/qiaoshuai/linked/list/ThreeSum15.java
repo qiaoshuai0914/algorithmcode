@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * https://leetcode-cn.com/problems/3sum/solution/3sumpai-xu-shuang-zhi-zhen-yi-dong-by-jyd/
  */
-public class ThreeSum {
+public class ThreeSum15 {
     public List<List<Integer>> threeSum(int[] nums) {
         //排序；
         Arrays.sort(nums);
