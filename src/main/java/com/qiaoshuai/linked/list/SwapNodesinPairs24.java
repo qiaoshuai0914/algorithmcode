@@ -30,6 +30,11 @@ public class SwapNodesinPairs24 {
         return result;
     }
 
+    /**
+     * 递归处理 通反转链表类似的思想
+     * @param head
+     * @return
+     */
     public ListNode swapPairs2(ListNode head) {
         //终止条件
         if (head == null || head.next == null) {
