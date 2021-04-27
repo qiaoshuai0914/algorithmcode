@@ -8,6 +8,7 @@ public class ClimbingStairs70 {
     Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 
     /**
+     * 爬楼梯问题
      * 加入了缓存就是动态规划了；
      * @param n
      * @return

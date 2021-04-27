@@ -1,4 +1,4 @@
-package com.qiaoshuai.linked.list;
+package com.qiaoshuai.entry;
 
 public class ListNode {
     public int val;

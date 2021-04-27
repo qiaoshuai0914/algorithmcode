@@ -1,5 +1,7 @@
 package com.qiaoshuai.linked.list;
 
+import com.qiaoshuai.entry.ListNode;
+
 public class ReverseLinkedList206 {
 
     public static void main(String[] args) {
