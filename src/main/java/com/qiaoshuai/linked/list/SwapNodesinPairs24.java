@@ -2,8 +2,6 @@ package com.qiaoshuai.linked.list;
 
 import com.qiaoshuai.entry.ListNode;
 
-import java.util.List;
-
 /**
  * 24. 两两交换链表中的节点
  */
